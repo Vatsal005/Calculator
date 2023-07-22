@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Tektur:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.heading {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Tektur", cursive;
+}
+main {
+  width: 330px;
+  height: 440px;
+  margin: 20px 39%;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  text-align: center;
+  border-radius: 26px;
+}
+.input {
+  text-align: right;
+  margin: 36px 0px 2px 0px;
+  padding: 5px 1px;
+  border: none;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  font-size: 32px;
+  width: 300px;
+}
+.get_number {
+  text-align: center;
+}
+.buttons {
+  text-align: center;
+}
+button {
+  font-size: 17px;
+  width: 60px;
+  height: 60px;
+  margin: 3px 4px;
+  border-radius: 16px;
+  border: none;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 29), 0 6px 20px 0 rgb(29, 29, 29);
+}
+.zero {
+  width: 135px;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  animation: vanish 0.1s;
+}
+@keyframes vanish {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+.divide,
+.multi,
+.minus,
+.plus,
+.equals {
+  color: orange;
+}
+.ac,
+.plus_minus,
+.modulos {
+  color: gray;
+}
